@@ -13,6 +13,9 @@ import Card from "./components/props-state/Card";
 import Pricing from "./components/props-state/Pricing";
 import Counter from "./components/props-state/Counter";
 import Person from "./components/props-state/Person";
+import ToggleButton from "./components/hooks_functions/ToggleButton";
+import TodoList from "./components/hooks_functions/TodoList";
+import CarRentalForm from "./components/hooks_functions/CarRentalForm";
 
 const App = () => {
   // js variables and functions
@@ -25,7 +28,8 @@ const App = () => {
         <Content />
         <TaskList />
      */}
-      <h2 className="container text-center mb-4">React Props Examples</h2>
+      {/* 
+     <h2 className="container text-center mb-4">React Props Examples</h2>
       <AlertMessage
         message="Happy Birthday :)"
         alertType="success"
@@ -40,7 +44,11 @@ const App = () => {
     <Counter />
 
     <Person />
-
+     */}
+     <ToggleButton/>
+      <TodoList />
+      <CarRentalForm />
+      
     </div>
   );
 };
